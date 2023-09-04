@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -s AaCc ZzEe
+tr "A" "Z" | tr "c" "e"
