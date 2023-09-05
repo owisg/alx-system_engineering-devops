@@ -1,2 +1,2 @@
 #!/bin/bash
-print(128 + int(os.environ.get('TRUEKNOWLEDGE', 0)))
+echo $((TRUEKNOWLEDGE + 128))
